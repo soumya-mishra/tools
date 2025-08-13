@@ -1,5 +1,5 @@
-This is a model context protocol(MCP) server creation method.
-The FastMCP implementation automatically handles tool registration and execution with just the @mcp.tool() decorators.
+- This is a model context protocol(MCP) server creation method.
+- The FastMCP implementation automatically handles tool registration and execution with just the @mcp.tool() decorators.
 
 1.summarize_text - Uses your SummarizationAgent
 

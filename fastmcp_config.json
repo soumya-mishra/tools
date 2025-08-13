@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bedrock-tools": {
+      "command": "python",
+      "args": ["fastmcp_server.py"],
+      "cwd": "/Users/603642/Library/CloudStorage/OneDrive-DeltaAirLines/Desktop/Data/MCP/tools"
+    }
+  }
+}

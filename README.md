@@ -17,15 +17,19 @@ So that we can access the server in postman
 
 - Body : raw
 
+```json
 {
-            "jsonrpc": "2.0",
-            "id": 1,
-            "method": "tools/call",
-            "params": {
-                "name": "summarize_text",
-                "arguments": {"text":"summarise this content:Bedrock is the solid rock that underlies looser surface material. An exposed portion of bedrock is often called an outcrop. The various kinds of broken and weathered rock material, such as soil and subsoil, that may overlie the bedrock are known as regolith."}
-            }
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "tools/call",
+    "params": {
+        "name": "summarize_text",
+        "arguments": {
+            "text": "summarise this content:Bedrock is the solid rock that underlies looser surface material. An exposed portion of bedrock is often called an outcrop. The various kinds of broken and weathered rock material, such as soil and subsoil, that may overlie the bedrock are known as regolith."
         }
+    }
+}
+
 
 header: application/json
 Accept: application/json, text/event-stream

@@ -29,10 +29,10 @@ So that we can access the server in postman
         }
     }
 }
+```
+
+- Content-Type: application/json
+- Accept: application/json, text/event-stream
 
 
-header: application/json
-Accept: application/json, text/event-stream
-
-<img width="468" height="301" alt="image" src="https://github.com/user-attachments/assets/4bc8b9bc-6f1c-403d-a59b-89a9930bd0b0" />
 
